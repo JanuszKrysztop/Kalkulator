@@ -21,13 +21,13 @@ if(isset($_POST['submit'])){
     $miesieczne_odsetki = $odsetki/ $n;
     $kapital = $odsetki - $K;
 
-echo    '<br>Kwota kredytu: '.$K.
+echo    '<br><div id="panel">Kwota kredytu: '.$K.
         '<br>Liczba rat: '.$n.
         '<br>Oprocentowanie roczne: '.$OPR.
         '<br>Oprocentowanie miesięczne: ' .$OPM.
         '<br>Kwota miesięcznej raty: '.$rata1.
         '<br>Kwota kapitału do spłaty: '.$kapital.
-        '<br>Kwota odsetek do splaty: '.$odsetki.'<br>';
+        '<br>Kwota odsetek do splaty: '.$odsetki.'</div><br>';
 }
 ?>
 <body>
